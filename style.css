@@ -589,6 +589,11 @@ html, body, main {
   margin-top: -2vw;
 }
 
+.header-left2 img{
+  width: 35vw;
+  height: 200px;
+}
+
 .overlay-text {
   position: absolute;
   top: 50%;
@@ -596,7 +601,7 @@ html, body, main {
   transform: translate(-50%, -50%);
   color: #000;
   font-family: Futura;
-  font-size: 1.3vw;
+  font-size: 1.6vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
