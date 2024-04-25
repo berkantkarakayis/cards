@@ -13,6 +13,19 @@
   --bg3: url(https://static.vecteezy.com/system/resources/thumbnails/002/381/365/small_2x/yellow-wave-background-free-vector.jpg);
   --batman: url(./src/img/batman.png);
   --bg2: url(https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
+  --bg-blue-2: url(./src/img/bg-blue-2.png);
+  --bg-blue: url(./src/img/bg-blue.png);
+  --bg-yellow: url(./src/img/bg-yellow.png);
+  --bg-yellow-2: url(./src/img/bg-yellow-2.png);
+  --bg-dark-yellow: url(./src/img/bg-dark-yellow.png);
+  --bg-gray: url(./src/img/bg-gray.png);
+  --bg-green-2: url(./src/img/bg-green-2.png);
+  --bg-green: url(./src/img/bg-green.png);
+  --bg-orange-2: url(./src/img/bg-orange-2.png);
+  --bg-orange: url(./src/img/bg-orange.png);
+  --bg-purple: url(./src/img/bg-purple.png);
+  --bg-white-2: url(./src/img/bg-white-2.png);
+  --bg-white: url(./src/img/bg-white.png);
 }
 
 .card {
@@ -61,13 +74,19 @@
 .card.avatar_3 {
   --color1: var(--avatar_3_1);
   --color2: var(--avatar_3_2);
-  --front: var(--bg3);
+  --front: var(--bg-yellow);
 }
 
 .card.avatar_4 {
   --color1: var(--avatar_2_1);
   --color2: var(--avatar_2_2);
   --front: var(--avatar_4_front);
+}
+
+.card.avatar_5 {
+  --color1: var(--avatar_2_1);
+  --color2: var(--avatar_2_2);
+  --front: var(--bg-blue);
 }
 
 .card:before,
@@ -543,4 +562,161 @@ html, body, main {
   to {
     transform: scale3d(1, 1, 1);
   }
+}
+
+
+/* 2.Card Türleri  */
+.card-content-area2{
+  border: solid 1px white;
+  height: 90vw;
+  margin: 5vw;
+  border-radius: 5%;
+  align-items: center;
+}
+
+.card-content-header2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.2em;
+  height: 8%;
+}
+
+.header-left2{
+  position: relative;
+  margin-left: -2vw;
+  margin-top: -2vw;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-family: Futura;
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header-right2{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: -2vw;
+  margin-right: -2vw;
+}
+
+.header-right-text2{
+  color: #000;
+  font-family: Futura;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -2px;
+}
+
+.avatar-container2{
+  margin-top: 2vw;
+  height: 40vw;
+  width: 56vw;
+  border-radius: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px #BDBEC0;
+}
+
+.avatar-container2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar-name-area2 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 6vw;
+}
+
+.avatar-name-area2 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.avatar-name-text {
+  font-family: "Gill Sans Std";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.description-area2 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 25vw;
+  font-size: small;
+  color: #000;
+  margin-top: 2vw;
+  font-family: "Gill Sans Std";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card-content-footer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.2em;
+  height: 8%;
+}
+
+.footer-left2, .footer-right2 {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.footer-left2 {
+  margin-bottom: -2vw;
+  margin-left: -2vw;
+}
+
+.footer-right2 {
+  flex-direction: row-reverse;
+  margin-bottom: -2vw;
+  margin-right: -2vw;
+}
+
+.footer-text2{
+  color: #000;
+  font-family: Futura;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1px;
 }
