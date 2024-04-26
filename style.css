@@ -962,8 +962,7 @@ main {
   font-weight: 500;
   line-height: normal;
   letter-spacing: -0.2px;
-  margin-bottom: 1vw;
-  font-size: 4px;
+  font-size: 0.5vw;
 }
 
 /* Footer 3 */
@@ -1014,12 +1013,13 @@ main {
 @media screen and (min-width: 610px) {
   .header-right2 img {
   }
+
   .header-right2 {
-
   }
+
   .header-left2 {
-
   }
+
   .header-left2 img {
 
   }
