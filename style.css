@@ -71,27 +71,51 @@
 }
 
 .card.avatar_2 {
-  --color1: var(--avatar_2_1);
-  --color2: var(--avatar_2_2);
-  --front: var(--avatar_2_front);
-}
-
-.card.avatar_3 {
   --color1: none;
   --color2: none;
   --front: var(--bg-yellow);
 }
 
-.card.avatar_4 {
-  --color1: var(--avatar_2_1);
-  --color2: var(--avatar_2_2);
-  --front: var(--avatar_4_front);
-}
-
-.card.avatar_5 {
+.card.avatar_3 {
   --color1: var(--avatar_2_1);
   --color2: var(--avatar_2_2);
   --front: var(--bg-blue);
+}
+
+.card.avatar_4 {
+  --color1: none;
+  --color2: none;
+  --front: var(--bg-dark-yellow);
+}
+
+.card.avatar_5 {
+  --color1: none;
+  --color2: none;
+  --front: var(--bg-gray);
+}
+
+.card.avatar_6 {
+  --color1: none;
+  --color2: none;
+  --front: var(--bg-green);
+}
+
+.card.avatar_7 {
+  --color1: none;
+  --color2: none;
+  --front: var(--bg-orange);
+}
+
+.card.avatar_8 {
+  --color1: none;
+  --color2: none;
+  --front: var(--bg-purple);
+}
+
+.card.avatar_9 {
+  --color1: none;
+  --color2: none;
+  --front: var(--bg-white);
 }
 
 .card:before,
