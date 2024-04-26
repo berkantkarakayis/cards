@@ -921,7 +921,7 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #000;
-  font-size: 1vw;
+  font-size: 0.8vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
